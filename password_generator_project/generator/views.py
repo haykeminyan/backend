@@ -20,7 +20,7 @@ def password(request):
         characters.extend(list('0123456789'))
 
 
-    length = int(request.GET.get('length', 14))
+    length = int(request.GET.get('length', 155))
     password = ''
 
     for x in range(length):
